@@ -606,5 +606,6 @@ func (r releaseDriftPostRenderer) Run(renderedManifests *bytes.Buffer) (modified
 	if err != nil {
 		return nil, err
 	}
+
 	return bytes.NewBuffer(yml), nil
 }
